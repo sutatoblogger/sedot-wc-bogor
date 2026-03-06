@@ -41,21 +41,24 @@
         {
           "@type": "PlumbingService",
           "@id": "https://sedot-wc-bogor.vercel.app/",
-          "name": "Pusat Sedot WC Jawa Barat - Cabang Bogor",
+          "name": "Jasa Sedot WC Bogor 24 Jam",
           "image": "https://sedot-wc-bogor.vercel.app/harga-sedot-wc-bogor-terdekat-24jam.webp",
-          "description": "Jasa sedot WC mampet dan septic tank penuh di Bogor. Harga Rp 400.000 per tangki (3 Kubik), gratis selang 20 meter. Pelancar pipa mampet tanpa bongkar.",
+          "description": "Layanan spesialis jasa sedot WC dan pelancar saluran mampet 24 Jam di Bogor tanpa tembak harga.",
           "telephone": "+6285591636942",
           "priceRange": "Rp 400.000",
-          "areaServed": {
-            "@type": "City",
-            "name": "Bogor"
+          "address": { 
+            "@type": "PostalAddress", 
+            "addressLocality": "Kota Bogor", 
+            "addressRegion": "Jawa Barat", 
+            "addressCountry": "ID" 
           },
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Bogor",
-            "addressRegion": "Jawa Barat",
-            "addressCountry": "ID"
-          }
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Kota Bogor",
+              "sameAs": "https://id.wikipedia.org/wiki/Kota_Bogor"
+            }
+          ]
         }
       ]
     }
